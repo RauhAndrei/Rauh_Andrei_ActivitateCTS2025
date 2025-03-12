@@ -1,5 +1,4 @@
 package ro.cts.clase;
-
 import ro.cts.readere.AngajatiReader;
 import ro.cts.readere.AplicantReader;
 
