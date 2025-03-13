@@ -1,4 +1,4 @@
-package ro.cts.clase;
+package ro.cts;
 
 public abstract class Aplicant {
 	protected String nume;
@@ -8,7 +8,6 @@ public abstract class Aplicant {
 	protected int nrProiecte;
 	protected String[] denumireProiect;
 
-	// ================================== Constructori ==================================
 	public Aplicant() {
 		super();
 	}
@@ -23,7 +22,6 @@ public abstract class Aplicant {
 		this.denumireProiect = denumireProiect;
 	}
 
-	// ================================== Getteri, setteri ==================================
 	public String getNume() {
 		return nume;
 	}

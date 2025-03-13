@@ -1,4 +1,4 @@
-package ro.cts.clase;
+package ro.cts;
 import java.util.Arrays;
 
 public class Student extends Aplicant {
@@ -6,7 +6,6 @@ public class Student extends Aplicant {
 	protected int anStudii;
 	private static int sumaFinantata;
 
-	// ================================== Constructori ==================================
 	public Student() {
 		super();
 
@@ -18,7 +17,6 @@ public class Student extends Aplicant {
 		this.anStudii = anStudii;
 	}
 
-	// ================================== Getteri, setteri ==================================
 	public String getFacultate() {
 		return facultate;
 	}

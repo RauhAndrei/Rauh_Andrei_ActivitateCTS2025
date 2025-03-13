@@ -1,4 +1,4 @@
-package ro.cts.clase;
+package ro.cts;
 import java.util.Arrays;
 
 public class Angajat extends Aplicant {
@@ -6,7 +6,6 @@ public class Angajat extends Aplicant {
 	private int salariu;
 	private static int sumaFinantata;
 
-	// ================================== Constructori ==================================
 	public Angajat() {
 		super();
 	}
@@ -17,7 +16,6 @@ public class Angajat extends Aplicant {
 		this.ocupatie = ocupatie;
 	}
 
-	// ================================== Getteri, setteri ==================================
 	public String getOcupatie() {
 		return ocupatie;
 	}

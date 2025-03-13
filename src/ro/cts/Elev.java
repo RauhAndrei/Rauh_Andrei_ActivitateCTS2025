@@ -1,4 +1,4 @@
-package ro.cts.clase;
+package ro.cts;
 import java.util.Arrays;
 
 public class Elev extends Aplicant {
@@ -6,7 +6,6 @@ public class Elev extends Aplicant {
 	private String tutore;
 	private static int sumaFinantata;
 
-	// ================================== Constructori ==================================
 	public Elev() {
 		super();
 	}
@@ -17,7 +16,6 @@ public class Elev extends Aplicant {
 		this.tutore = tutore;
 	}
 
-	// ================================== Getteri, setteri ==================================
 	public int getClasa() {
 		return clasa;
 	}

@@ -1,7 +1,7 @@
 package ro.cts.readere;
 
-import ro.cts.clase.Angajat;
-import ro.cts.clase.Aplicant;
+import ro.cts.Angajat;
+import ro.cts.Aplicant;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,6 +18,7 @@ public class AngajatiReader extends AplicantReader {
 
         while (scanner.hasNext()) {
             Angajat angajat = new Angajat();
+            //TODO ce face aceasta fct super
             super.readAplicant(scanner, angajat);
             int salariu = scanner.nextInt();
             angajat.setSalariu(salariu);
