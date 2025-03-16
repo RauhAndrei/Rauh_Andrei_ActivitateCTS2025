@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Angajat extends Aplicant {
 	private String ocupatie;
 	private int salariu;
-	private static int sumaFinantata;
+	private static int sumaFinantata;// dc folosim static aici - pt ca toate obiectele de tip angajat au sumaFinantata aceeasi
 
 	public Angajat() {
 		super();

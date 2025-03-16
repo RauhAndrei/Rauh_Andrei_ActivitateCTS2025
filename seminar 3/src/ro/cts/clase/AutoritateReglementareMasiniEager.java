@@ -1,16 +1,17 @@
 package ro.cts.clase;
 
-public class AutoitateReglementareMasiniEager {
+public class AutoritateReglementareMasiniEager {
     private String nume;
     private String webSite;
     private int nrReglementari;
-    private static AutoitateReglementareMasiniEager instance = new AutoitateReglementareMasiniEager("Autoritate Auto", "ww.autoritate.ro", 200);
+    private static AutoritateReglementareMasiniEager instance =
+            new AutoritateReglementareMasiniEager("Autoritate Auto", "ww.autoritate.ro", 200);
     //init la momentul declararii - eager init
 
-    public AutoitateReglementareMasiniEager() {
+    public AutoritateReglementareMasiniEager() {
     }
 
-    public AutoitateReglementareMasiniEager(String nume, String webSite, int nrReglementari) {
+    public AutoritateReglementareMasiniEager(String nume, String webSite, int nrReglementari) {
         this.nume = nume;
         this.webSite = webSite;
         this.nrReglementari = nrReglementari;
@@ -36,12 +37,12 @@ public class AutoitateReglementareMasiniEager {
         nrReglementari++;
     }
 
-    public static AutoitateReglementareMasiniEager getInstance() {
+    public static AutoritateReglementareMasiniEager getInstance() {
         return instance;
     }
 
-    public static void setInstance(AutoitateReglementareMasiniEager instance) {
-        AutoitateReglementareMasiniEager.instance = instance;
+    public static void setInstance(AutoritateReglementareMasiniEager instance) {
+        AutoritateReglementareMasiniEager.instance = instance;
     }
 
     @Override

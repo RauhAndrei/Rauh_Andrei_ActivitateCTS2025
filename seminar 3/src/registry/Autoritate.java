@@ -7,7 +7,7 @@ import java.util.Map;
 public class Autoritate {
     private String nume;
     private String webwite;
-    private Map<String, Reglementare> map = new HashMap<>();
+    private Map<String, Reglementare> map = new HashMap<>();//TODO dc folosm asta
     static Autoritate instance = null;
 
     private Autoritate() {

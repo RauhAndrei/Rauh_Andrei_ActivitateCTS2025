@@ -8,7 +8,6 @@ public class Student extends Aplicant {
 
 	public Student() {
 		super();
-
 	}
 
 	public Student(String nume, String prenume, int varsta, int punctaj, int nrProiecte, String[] denumireProiect, String facultate, int anStudii) {

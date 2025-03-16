@@ -22,4 +22,7 @@ public class Reglementare {
                 ", dataReglementare='" + dataReglementare + '\'' +
                 '}';
     }
+
+
+
 }

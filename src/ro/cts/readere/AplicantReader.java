@@ -12,11 +12,11 @@ public abstract class AplicantReader {
 
     public void readAplicant(Scanner scanner, Aplicant aplicant) {
         String nume = scanner.next();
-        String prenume = (scanner.next()).toString();
+        String prenume = scanner.next();
         int varsta = Integer.valueOf(scanner.nextInt());
         int punctaj = Integer.valueOf(scanner.nextInt());
         int nr = Integer.valueOf(scanner.nextInt());
-        String[] vect = new String[5];
+        String[] vect = new String[nr];
 
         for (int i = 0; i < nr; i++) {
             vect[i] = scanner.next();

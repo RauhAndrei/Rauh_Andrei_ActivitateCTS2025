@@ -8,8 +8,7 @@ public abstract class Aplicant {
 	protected int nrProiecte;
 	protected String[] denumireProiect;
 
-	public Aplicant() {
-		super();
+	public Aplicant() {;
 	}
 
 	public Aplicant(String nume, String prenume, int varsta, int punctaj, int nrProiecte, String[] denumireProiect) {
@@ -70,7 +69,6 @@ public abstract class Aplicant {
 			System.out.println("Aplicantul " + nume + " " + prenume + " nu a fost acceptat.");
 		}
 	}
-
 
 	public abstract void afiseazaInformatiiFinantare();
 
