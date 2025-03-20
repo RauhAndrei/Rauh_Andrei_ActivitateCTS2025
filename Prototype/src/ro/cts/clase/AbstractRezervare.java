@@ -18,26 +18,10 @@ public abstract class AbstractRezervare {
     }
 
     public AbstractRezervare(int nrParticipanti, int ora, String numeClient, int ziuaLunii) {
-        if (nrParticipanti < 2) {
-            this.nrParticipanti = 2;
-        } else {
-            this.nrParticipanti = nrParticipanti;
-        }
-        if (ora >= 10 && ora <= 22) {
-            this.ora = ora;
-        } else {
-            this.ora = 12;
-        }
-        if (numeClient.length() > 2) {
-            this.numeClient = numeClient;
-        } else {
-            this.numeClient = "Anonim";
-        }
-        if (ziuaLunii > 1 && ziuaLunii < 31) {
-            this.ziuaLunii = ziuaLunii;
-        } else {
-            this.ziuaLunii = 1;
-        }
+        this.nrParticipanti = (nrParticipanti < 2) ? 2 : nrParticipanti;
+        this.ora = (ora >= 10 && ora <= 22) ? ora : 12;
+        this.numeClient = (numeClient.length() > 2) ? numeClient : "Anonim";
+        this.ziuaLunii = (ziuaLunii > 1 && ziuaLunii < 31) ? ziuaLunii : 1;
     }
 
     public abstract AbstractRezervare copiaza(int ziua);

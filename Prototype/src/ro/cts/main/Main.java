@@ -1,4 +1,4 @@
-package ro.cts;
+package ro.cts.main;
 
 import ro.cts.clase.AbstractRezervare;
 import ro.cts.clase.RezervareTerasa;
