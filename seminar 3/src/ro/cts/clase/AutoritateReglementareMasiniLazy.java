@@ -32,10 +32,6 @@ public class AutoritateReglementareMasiniLazy {
         this.webSite = webSite;
     }
 
-    public void reglementeazaModel(String name) {
-        nrReglementari++;
-    }
-
 //dc avem multitheading, verif dc e null dar se pierde executia de pe ace thread, dupa se intoarce inapoi si iar intra in fir si constructorul se va face de 2 ori
     public static AutoritateReglementareMasiniLazy getInstance(String nume, String webSite) {
         if (instance == null) {
@@ -51,6 +47,10 @@ public class AutoritateReglementareMasiniLazy {
         AutoritateReglementareMasiniLazy.instance = instance;
     }
 
+    public void reglementeazaModel(String name) {
+        nrReglementari++;
+    }
+
     @Override
     public String toString() {
         return "AutoitateReglementareMasiniLazy{" +
@@ -60,3 +60,4 @@ public class AutoritateReglementareMasiniLazy {
                 '}';
     }
 }
+//TODO cate tipuri de singleton/alte patternuri tb sa stim pt test, doar cele care facem la seminar?

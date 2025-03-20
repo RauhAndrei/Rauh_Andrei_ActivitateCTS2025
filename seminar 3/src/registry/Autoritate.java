@@ -7,13 +7,13 @@ import java.util.Map;
 public class Autoritate {
     private String nume;
     private String webwite;
-    private Map<String, Reglementare> map = new HashMap<>();//TODO dc folosm asta
-    static Autoritate instance = null;
+    private Map<String, Reglementare> map = new HashMap<>();//pt a evita crearea de reglementări duplicate.
+    private static Autoritate instance = null;
 
     private Autoritate() {
     }
 
-    private Autoritate(String nume, String webwite) {
+    public Autoritate(String nume, String webwite) {
         this.nume = nume;
         this.webwite = webwite;
     }
@@ -38,7 +38,6 @@ public class Autoritate {
             map.put(model, new Reglementare(model, map.size() + 1, (new Date()).toString()));
         }
         return map.get(model);
-
     }
 
 }

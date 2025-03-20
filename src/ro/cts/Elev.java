@@ -40,6 +40,7 @@ public class Elev extends Aplicant {
                 + Arrays.toString(denumireProiect) + "Clasa=" + clasa + ", Tutore=" + tutore;
     }
 
+    @Override
     public void afiseazaInformatiiFinantare() {
         System.out.println("Elevul " + getNume() + " " + getPrenume() + " primeste" + sumaFinantata + " Euro/zi in proiect.");
     }

@@ -2,8 +2,8 @@ package ro.cts;
 import java.util.Arrays;
 
 public class Student extends Aplicant {
-	protected String facultate;
-	protected int anStudii;
+	private String facultate;
+	private int anStudii;
 	private static int sumaFinantata;
 
 	public Student() {
@@ -37,6 +37,7 @@ public class Student extends Aplicant {
 		return "Student: Nume=" + nume + ", Prenume=" + prenume + ", Varsta=" + varsta + ", Punctaj=" + punctaj + ", Nr_proiecte=" + nrProiecte +  ", DenumireProiect=" + Arrays.toString(denumireProiect) + "Facultate=" + facultate + ", An_studii=" + anStudii;
 	}
 
+	@Override
 	public void afiseazaInformatiiFinantare() {
 		System.out.println("Studentul " + getNume() + " " + getPrenume() + " primeste" + sumaFinantata + " Euro/zi in proiect.");
 	}

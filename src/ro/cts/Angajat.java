@@ -39,8 +39,10 @@ public class Angajat extends Aplicant {
 				+ Arrays.toString(denumireProiect) + "Ocupatie=" + ocupatie + ", salariu=" + salariu;
 	}
 
+	@Override
 	public void afiseazaInformatiiFinantare() {
 		System.out.println("Angajatul " + getNume() + " " + getPrenume() + " primeste" + sumaFinantata + " Euro/zi in proiect.");
 	}
 	
 }
+//TODO sa sterg toate comentariile inutile din tot proiect

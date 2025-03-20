@@ -33,16 +33,16 @@ public class AutoritateReglementareMasiniEager {
         this.webSite = webSite;
     }
 
-    public void reglementeazaModel(String name) {
-        nrReglementari++;
-    }
-
     public static AutoritateReglementareMasiniEager getInstance() {
         return instance;
     }
 
     public static void setInstance(AutoritateReglementareMasiniEager instance) {
         AutoritateReglementareMasiniEager.instance = instance;
+    }
+
+    public void reglementeazaModel(String name) {
+        nrReglementari++;
     }
 
     @Override
