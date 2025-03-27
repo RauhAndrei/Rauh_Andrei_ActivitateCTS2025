@@ -13,10 +13,6 @@ public abstract class AbstractRezervare {
         this.ziuaLunii = 5;
     }
 
-    public void setZiuaLunii(int ziuaLunii) {
-        this.ziuaLunii = ziuaLunii;
-    }
-
     public AbstractRezervare(int nrParticipanti, int ora, String numeClient, int ziuaLunii) {
         this.nrParticipanti = (nrParticipanti < 2) ? 2 : nrParticipanti;
         this.ora = (ora >= 10 && ora <= 22) ? ora : 12;

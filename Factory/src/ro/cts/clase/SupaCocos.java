@@ -9,4 +9,6 @@ public class SupaCocos extends Supa {
     public void afiseazaDescriere() {
         System.out.println(this.toString());
     }
+
+
 }

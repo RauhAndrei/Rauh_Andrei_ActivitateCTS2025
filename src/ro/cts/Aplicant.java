@@ -12,7 +12,6 @@ public abstract class Aplicant {
 	}
 
 	public Aplicant(String nume, String prenume, int varsta, int punctaj, int nrProiecte, String[] denumireProiect) {
-		super();
 		this.nume = nume;
 		this.prenume = prenume;
 		this.varsta = varsta;
@@ -20,6 +19,8 @@ public abstract class Aplicant {
 		this.nrProiecte = nrProiecte;
 		this.denumireProiect = denumireProiect;
 	}
+
+	public abstract void afiseazaInformatiiFinantare();
 
 	public String getNume() {
 		return nume;
@@ -70,6 +71,4 @@ public abstract class Aplicant {
 		}
 	}
 
-	public abstract void afiseazaInformatiiFinantare();
-
-	}
+}

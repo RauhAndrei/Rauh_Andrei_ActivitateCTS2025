@@ -8,7 +8,7 @@ public class Reglementare {
     protected Reglementare() {
     }
 
-//    protected - pt a controla instanțierea obiectelor Reglementare, ca să fie create doar prin intermediul clasei Autoritate
+//protected - pt a controla instanțierea obiectelor Reglementare, ca să fie create doar prin intermediul clasei Autoritate
     protected Reglementare(String model, int nrReglementare, String dataReglementare) {
         this.model = model;
         this.nrReglementare = nrReglementare;

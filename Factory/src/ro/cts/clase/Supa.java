@@ -14,6 +14,8 @@ public abstract class Supa {
         this.calorii = calorii;
     }
 
+    public abstract void afiseazaDescriere();
+
     public float getPret() {
         return pret;
     }
@@ -40,6 +42,5 @@ public abstract class Supa {
         return pret / cantitate * 100;
     }
 
-    public abstract void afiseazaDescriere();
 
 }

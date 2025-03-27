@@ -39,7 +39,7 @@ public class Student extends Aplicant {
 
 	@Override
 	public void afiseazaInformatiiFinantare() {
-		System.out.println("Studentul " + getNume() + " " + getPrenume() + " primeste" + sumaFinantata + " Euro/zi in proiect.");
+		System.out.println("Studentul " + getNume() + " " + getPrenume() + " primeste" + this.sumaFinantata + " Euro/zi in proiect.");
 	}
 	
 }

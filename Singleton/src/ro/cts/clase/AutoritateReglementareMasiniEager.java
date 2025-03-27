@@ -6,12 +6,8 @@ public class AutoritateReglementareMasiniEager {
     private int nrReglementari;
     private static AutoritateReglementareMasiniEager instance =
             new AutoritateReglementareMasiniEager("Autoritate Auto", "ww.autoritate.ro", 200);
-    //init la momentul declararii - eager init
 
-    public AutoritateReglementareMasiniEager() {
-    }
-
-    public AutoritateReglementareMasiniEager(String nume, String webSite, int nrReglementari) {
+    private AutoritateReglementareMasiniEager(String nume, String webSite, int nrReglementari) {
         this.nume = nume;
         this.webSite = webSite;
         this.nrReglementari = nrReglementari;
@@ -35,10 +31,6 @@ public class AutoritateReglementareMasiniEager {
 
     public static AutoritateReglementareMasiniEager getInstance() {
         return instance;
-    }
-
-    public static void setInstance(AutoritateReglementareMasiniEager instance) {
-        AutoritateReglementareMasiniEager.instance = instance;
     }
 
     public void reglementeazaModel(String name) {

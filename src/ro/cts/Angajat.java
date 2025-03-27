@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Angajat extends Aplicant {
 	private String ocupatie;
 	private int salariu;
-	private static int sumaFinantata;// dc folosim static aici - pt ca toate obiectele de tip angajat au sumaFinantata aceeasi
+	private static int sumaFinantata;
 
 	public Angajat() {
 		super();
@@ -41,8 +41,7 @@ public class Angajat extends Aplicant {
 
 	@Override
 	public void afiseazaInformatiiFinantare() {
-		System.out.println("Angajatul " + getNume() + " " + getPrenume() + " primeste" + sumaFinantata + " Euro/zi in proiect.");
+		System.out.println("Angajatul " + getNume() + " " + getPrenume() + " primeste" + this.sumaFinantata + " Euro/zi in proiect.");
 	}
 	
 }
-//TODO sa sterg toate comentariile inutile din tot proiect

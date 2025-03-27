@@ -10,6 +10,7 @@ public abstract class AplicantReader {
 
     public abstract List<Aplicant> readAplicanti(String file) throws FileNotFoundException;
 
+    // dc ii dam aici ca parametru scanner - ca sa nu il creem fiecare data si sa nu l setam fiecare data(delimiter)
     public void readAplicant(Scanner scanner, Aplicant aplicant) {
         String nume = scanner.next();
         String prenume = scanner.next();

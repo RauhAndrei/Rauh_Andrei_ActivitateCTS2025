@@ -7,13 +7,13 @@ import java.util.Map;
 public class Autoritate {
     private String nume;
     private String webwite;
-    private Map<String, Reglementare> map = new HashMap<>();//pt a evita crearea de reglementări duplicate.
+    private Map<String, Reglementare> map = new HashMap<>();
     private static Autoritate instance = null;
 
     private Autoritate() {
     }
 
-    public Autoritate(String nume, String webwite) {
+    private Autoritate(String nume, String webwite) {
         this.nume = nume;
         this.webwite = webwite;
     }

@@ -1,7 +1,6 @@
 package ro.cts.clase;
 
 public class SupaLegume extends Supa {
-
     public SupaLegume() {
     }
 
@@ -11,6 +10,6 @@ public class SupaLegume extends Supa {
 
     @Override
     public void afiseazaDescriere() {
-        System.out.println("Supa are pretul " + getPret() + " gramaj " + getCantitate() + " calorii" + getCalorii());
+        System.out.println(this.toString());
     }
 }

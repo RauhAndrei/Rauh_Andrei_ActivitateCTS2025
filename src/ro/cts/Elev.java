@@ -42,6 +42,6 @@ public class Elev extends Aplicant {
 
     @Override
     public void afiseazaInformatiiFinantare() {
-        System.out.println("Elevul " + getNume() + " " + getPrenume() + " primeste" + sumaFinantata + " Euro/zi in proiect.");
+        System.out.println("Elevul " + getNume() + " " + getPrenume() + " primeste" + this.sumaFinantata + " Euro/zi in proiect.");
     }
 }

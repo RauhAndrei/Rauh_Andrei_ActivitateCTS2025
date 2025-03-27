@@ -28,4 +28,7 @@ public class StudentiReader extends AplicantReader {
         scanner.close();
         return studenti;
     }
+
+
+
 }

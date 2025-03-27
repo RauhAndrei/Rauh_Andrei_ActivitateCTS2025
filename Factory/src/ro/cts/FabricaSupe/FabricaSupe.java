@@ -21,7 +21,6 @@ public class FabricaSupe {
             case COCOS -> new SupaCocos(pret, cantitate, calorii);
             default -> null;
         };
-
     }
 
 
