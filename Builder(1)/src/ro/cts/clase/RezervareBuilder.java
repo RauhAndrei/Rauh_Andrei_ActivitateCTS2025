@@ -4,8 +4,9 @@ public class RezervareBuilder implements AbstractBuilder {
 
     private Rezervare rezervare;
 
-    public RezervareBuilder(String numeClient) {//pt ca nu mai primim in builder numele
-        rezervare = new Rezervare(numeClient, false, false, false, "fara muzica");
+    public RezervareBuilder(String numeClient) {//pt ca nu mai primim in build numele
+        rezervare = new Rezervare(
+                numeClient, false, false, false, "fara muzica");
     }
 
     public RezervareBuilder setHasAsezareGeam(boolean hasAsezareGeam) {

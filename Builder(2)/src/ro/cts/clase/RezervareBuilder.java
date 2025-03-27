@@ -8,7 +8,7 @@ public class RezervareBuilder implements AbstractBuilder {
     private boolean hasMasaDecorata;
     private String genMuzica;
 
-    //
+    //se face dc userul nu le seteaza prin setteri sa nu fie gol
     public RezervareBuilder() {
         hasAsezareGeam = false;
         hasScauneErg = false;
@@ -49,7 +49,7 @@ public class RezervareBuilder implements AbstractBuilder {
     //aici se creeaza obiectul, aici se da atributul nume pt ca e obligatoriu
     @Override
     public Rezervare build(String numeClient) {
-        return (new Rezervare(numeClient, hasAsezareGeam, hasScauneErg, hasMasaDecorata, genMuzica));
+        return new Rezervare(numeClient, hasAsezareGeam, hasScauneErg, hasMasaDecorata, genMuzica);
     }
 
 }
