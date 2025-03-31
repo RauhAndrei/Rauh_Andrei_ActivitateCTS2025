@@ -14,6 +14,6 @@ public class Main {
         System.out.println(asistent);
         System.out.println(medic);
         System.out.println(brancardier);
-
+//
     }
 }
