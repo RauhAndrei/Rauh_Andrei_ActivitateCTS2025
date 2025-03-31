@@ -5,11 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/Builder(1)/Builder(1).iml" filepath="$PROJECT_DIR$/Builder(1)/Builder(1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder(2)/Builder(2).iml" filepath="$PROJECT_DIR$/Builder(2)/Builder(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/CTS.iml" filepath="$PROJECT_DIR$/CTS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory method/Factory method.iml" filepath="$PROJECT_DIR$/Factory method/Factory method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple Factory/Simple Factory.iml" filepath="$PROJECT_DIR$/Simple Factory/Simple Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spital(1) - builder(2)/Spital(1) - builder(2).iml" filepath="$PROJECT_DIR$/Spital(1) - builder(2)/Spital(1) - builder(2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spital(2) - simple factory/Spital(2) - simple factory.iml" filepath="$PROJECT_DIR$/Spital(2) - simple factory/Spital(2) - simple factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spital(4) - prototype/Spital(4) - prototype.iml" filepath="$PROJECT_DIR$/Spital(4) - prototype/Spital(4) - prototype.iml" />
     </modules>
   </component>
