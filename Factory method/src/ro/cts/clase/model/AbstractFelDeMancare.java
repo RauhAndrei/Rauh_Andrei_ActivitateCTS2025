@@ -1,10 +1,10 @@
 package ro.cts.clase.model;
 
-public abstract class FelDeMancare {
+public abstract class AbstractFelDeMancare {
     private float pret;
     private float calorii;
 
-    public FelDeMancare(float pret, float calorii) {
+    public AbstractFelDeMancare(float pret, float calorii) {
         this.pret = pret;
         this.calorii = calorii;
     }

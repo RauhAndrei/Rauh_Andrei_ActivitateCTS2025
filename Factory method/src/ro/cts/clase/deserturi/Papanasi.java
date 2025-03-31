@@ -1,8 +1,8 @@
 package ro.cts.clase.deserturi;
 
-import ro.cts.clase.model.FelDeMancare;
+import ro.cts.clase.model.AbstractFelDeMancare;
 
-public class Papanasi extends FelDeMancare {
+public class Papanasi extends AbstractFelDeMancare {
     private String crema;
 
     public Papanasi(float pret, float calorii, String crema) {

@@ -1,7 +1,7 @@
 package ro.cts.clase.factory;
 
 import ro.cts.clase.AbstractFactory;
-import ro.cts.clase.model.FelDeMancare;
+import ro.cts.clase.model.AbstractFelDeMancare;
 import ro.cts.clase.model.TipFelDeMancare;
 import ro.cts.clase.supe.SupaCiuperci;
 import ro.cts.clase.supe.SupaLegume;
@@ -19,7 +19,7 @@ public class FactorySupa implements AbstractFactory {
     }
 
     @Override
-    public FelDeMancare creareFelDeMancare(TipFelDeMancare tipFelDeMancare, float pret, float calorii) {
+    public AbstractFelDeMancare creareFelDeMancare(TipFelDeMancare tipFelDeMancare, float pret, float calorii) {
         switch ((Supe) tipFelDeMancare) {
             case LEGUME -> {
                 return new SupaLegume(pret, calorii, cantitate);

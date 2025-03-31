@@ -1,8 +1,8 @@
 package ro.cts.clase.supe;
 
-import ro.cts.clase.model.FelDeMancare;
+import ro.cts.clase.model.AbstractFelDeMancare;
 
-public class SupaLegume extends FelDeMancare {
+public class SupaLegume extends AbstractFelDeMancare {
     private int cantitate;
 
     public SupaLegume(float pret, float calorii, int cantitate) {

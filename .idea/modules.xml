@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spital(1) - builder(2)/Spital(1) - builder(2).iml" filepath="$PROJECT_DIR$/Spital(1) - builder(2)/Spital(1) - builder(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/Spital(2) - simple factory/Spital(2) - simple factory.iml" filepath="$PROJECT_DIR$/Spital(2) - simple factory/Spital(2) - simple factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spital(3) - factory method/Spital(3) - factory method.iml" filepath="$PROJECT_DIR$/Spital(3) - factory method/Spital(3) - factory method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spital(4) - prototype/Spital(4) - prototype.iml" filepath="$PROJECT_DIR$/Spital(4) - prototype/Spital(4) - prototype.iml" />
     </modules>
   </component>
