@@ -1,9 +1,7 @@
 package ro.cts.main;
 
-import ro.cts.FabricaSupe.FabricaSupe;
-import ro.cts.FabricaSupe.TipSupe;
-import ro.cts.clase.Supa;
-import ro.cts.clase.SupaLegume;
+import ro.cts.FabricaSupe.*;
+import ro.cts.clase.*;
 
 public class Main {
     public static void main(String[] args) {

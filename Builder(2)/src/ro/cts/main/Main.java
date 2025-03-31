@@ -6,6 +6,7 @@ import ro.cts.clase.RezervareBuilder;
 public class Main {
     public static void main(String[] args) {
         RezervareBuilder rezervareBuilder = new RezervareBuilder();
+
         Rezervare rezervare = rezervareBuilder
                 .setGenMuzica("rock")
                 .setHasAsezareGeam(true).setHasScauneErg(false)

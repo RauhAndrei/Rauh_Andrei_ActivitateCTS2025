@@ -17,6 +17,7 @@ public class RezervareBuilder implements AbstractBuilder {
 
     }
 
+    //folosim return this - pt a face apelul in cascada
     public RezervareBuilder setNumeClient(String numeClient) {
         this.numeClient = numeClient;
         return this;

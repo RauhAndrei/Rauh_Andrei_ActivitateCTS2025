@@ -1,4 +1,6 @@
-package ro.cts.clase;
+package ro.cts.clase.supe;
+
+import ro.cts.clase.model.FelDeMancare;
 
 public class SupaLegume extends FelDeMancare {
     private int cantitate;

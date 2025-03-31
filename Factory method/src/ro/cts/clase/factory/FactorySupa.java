@@ -1,4 +1,11 @@
-package ro.cts.clase;
+package ro.cts.clase.factory;
+
+import ro.cts.clase.AbstractFactory;
+import ro.cts.clase.model.FelDeMancare;
+import ro.cts.clase.model.TipFelDeMancare;
+import ro.cts.clase.supe.SupaCiuperci;
+import ro.cts.clase.supe.SupaLegume;
+import ro.cts.clase.supe.Supe;
 
 public class FactorySupa implements AbstractFactory {
     private int cantitate;

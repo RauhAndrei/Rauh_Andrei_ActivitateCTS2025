@@ -1,4 +1,6 @@
-package ro.cts.clase;
+package ro.cts.clase.deserturi;
+
+import ro.cts.clase.model.FelDeMancare;
 
 public class Tiramisu extends FelDeMancare {
     private String crema;

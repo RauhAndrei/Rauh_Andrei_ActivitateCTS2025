@@ -15,12 +15,20 @@ public class FabricaSupe {
     }
 
     public Supa getSupa(TipSupe tip, float cantitate) {
-        return switch (tip) {
-            case LEGUME -> new SupaLegume(pret, cantitate, calorii);
-            case VITA -> new SupaVita(pret, cantitate, calorii);
-            case COCOS -> new SupaCocos(pret, cantitate, calorii);
-            default -> null;
-        };
+        switch (tip) {
+            case LEGUME -> {
+                return new SupaLegume(pret, cantitate, calorii);
+            }
+            case VITA -> {
+                return new SupaVita(pret, cantitate, calorii);
+            }
+            case COCOS -> {
+                return new SupaCocos(pret, cantitate, calorii);
+            }
+            default -> {
+                return null;
+            }
+        }
     }
 
 

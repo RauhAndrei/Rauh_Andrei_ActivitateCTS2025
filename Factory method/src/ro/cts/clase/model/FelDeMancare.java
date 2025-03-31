@@ -1,4 +1,4 @@
-package ro.cts.clase;
+package ro.cts.clase.model;
 
 public abstract class FelDeMancare {
     private float pret;

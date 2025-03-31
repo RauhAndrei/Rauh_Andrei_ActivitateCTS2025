@@ -4,7 +4,7 @@ public class RezervareBuilder implements AbstractBuilder {
 
     private Rezervare rezervare;
 
-    public RezervareBuilder(String numeClient) {//pt ca nu mai primim in build numele
+    public RezervareBuilder(String numeClient) {//unde creem obiectul acolo si primim atributele obligatorii
         rezervare = new Rezervare(
                 numeClient, false, false, false, "fara muzica");
     }
