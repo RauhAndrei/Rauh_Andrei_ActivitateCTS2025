@@ -11,9 +11,9 @@ public class Main {
         FabricaPersonalMedical fabricaPersonalMedical = new FabricaPersonalMedical(true, true,
                 false);
 
-        AbstractPersonal medic = fabricaPersonalMedical.getPersonal(PersonalMedical.MEDIC,
+        AbstractPersonal medic = fabricaPersonalMedical.crearePersonal(PersonalMedical.MEDIC,
                 "Rauh Andrei", 1234567890, "25.09.2002");
-        AbstractPersonal asistent = fabricaPersonalMedical.getPersonal(PersonalMedical.ASISTENT,
+        AbstractPersonal asistent = fabricaPersonalMedical.crearePersonal(PersonalMedical.ASISTENT,
                 "Rusu Vadim", 1234567891, "05.03.2022");
 
         System.out.println(medic);
@@ -22,9 +22,9 @@ public class Main {
         FabricaPersonalNonMedical fabricaPersonalNonMedical = new FabricaPersonalNonMedical(false,
                 false);
 
-        AbstractPersonal secretar = fabricaPersonalNonMedical.getPersonal(PersonalNonMedical.SECRETAR,
+        AbstractPersonal secretar = fabricaPersonalNonMedical.crearePersonal(PersonalNonMedical.SECRETAR,
                 "Vasile Ganganu", 1234567892,  "27.01.2017");
-        AbstractPersonal registrator = fabricaPersonalNonMedical.getPersonal(PersonalNonMedical.REGISTRATOR,
+        AbstractPersonal registrator = fabricaPersonalNonMedical.crearePersonal(PersonalNonMedical.REGISTRATOR,
                 "Ion Varanita", 1234567893, "07.11.2011");
 
         System.out.println(secretar);

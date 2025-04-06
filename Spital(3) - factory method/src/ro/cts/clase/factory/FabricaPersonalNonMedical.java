@@ -17,7 +17,7 @@ public class FabricaPersonalNonMedical implements AbstractFactory {
     }
 
     @Override
-    public AbstractPersonal getPersonal(TipPersonal tip, String numePrenume, int cnp, String dataAngjare) {
+    public AbstractPersonal crearePersonal(TipPersonal tip, String numePrenume, int cnp, String dataAngjare) {
         switch ((PersonalNonMedical) tip) {
             case SECRETAR -> {
                 return new Secretar(numePrenume, cnp, dataAngjare);

@@ -20,8 +20,8 @@ public class FabricaPersonalMedical implements AbstractFactory {
     }
 
     @Override
-    public AbstractPersonal getPersonal(TipPersonal tip, String numePrenume, int cnp, String dataAngjare) {
-       switch ( (PersonalMedical) tip) {
+    public AbstractPersonal crearePersonal(TipPersonal tip, String numePrenume, int cnp, String dataAngjare) {
+       switch ((PersonalMedical) tip) {
            case BRANCARDIER -> {
                return new Brancardier(numePrenume, cnp, dataAngjare, areTureDeNoapte);
            }
