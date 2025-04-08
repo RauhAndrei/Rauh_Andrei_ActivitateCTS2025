@@ -7,8 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/Builder(1)/Builder(1).iml" filepath="$PROJECT_DIR$/Builder(1)/Builder(1).iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder(2)/Builder(2).iml" filepath="$PROJECT_DIR$/Builder(2)/Builder(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/CTS.iml" filepath="$PROJECT_DIR$/CTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Comanda - simple factory/Comanda - simple factory.iml" filepath="$PROJECT_DIR$/Comanda - simple factory/Comanda - simple factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Consultatie - builder(2)/Consultatie - builder(2).iml" filepath="$PROJECT_DIR$/Consultatie - builder(2)/Consultatie - builder(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory method/Factory method.iml" filepath="$PROJECT_DIR$/Factory method/Factory method.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programare stomatologica/Programare stomatologica.iml" filepath="$PROJECT_DIR$/Programare stomatologica/Programare stomatologica.iml" />
       <module fileurl="file://$PROJECT_DIR$/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simple Factory/Simple Factory.iml" filepath="$PROJECT_DIR$/Simple Factory/Simple Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
