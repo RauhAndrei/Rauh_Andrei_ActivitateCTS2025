@@ -2,5 +2,5 @@ package ro.cts.clase;
 
 public interface AbstractBuilder {
 
-    public Rezervare build(String numeClient);//creeaza obiectul
+    Rezervare build(String numeClient);//creeaza obiectul
 }
