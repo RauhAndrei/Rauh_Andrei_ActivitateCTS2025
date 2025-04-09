@@ -4,7 +4,7 @@ public class MotorAudio {
     private int volume;
     private boolean isStereo;
     private boolean isMuted;
-    private static MotorAudio instance;
+    private static MotorAudio instance = null;
 
     private MotorAudio() {
     }
