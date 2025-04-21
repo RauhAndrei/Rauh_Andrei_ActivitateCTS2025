@@ -9,14 +9,6 @@ public class MedicamentSpital {
         this.pret = pret;
     }
 
-    public void prezintaReteta(){
-        System.out.println("Este prezentata reteta pentru medicamentul "+ numeMedicament);
-    }
-
-    public void achizitioneazaMedicament(){
-        System.out.printf("Medicamentul " + numeMedicament + " a fost achizitionat la pretul de " + pret );
-    }
-
     public String getNumeMedicament() {
         return numeMedicament;
     }
@@ -24,4 +16,15 @@ public class MedicamentSpital {
     public float getPret() {
         return pret;
     }
+
+    public void prezintaReteta(){
+        System.out.println("Este prezentata reteta pentru medicamentul "+ numeMedicament);
+    }
+
+    public void achizitioneazaMedicament(){
+        prezintaReteta();
+        System.out.printf("Medicamentul " + numeMedicament + " a fost achizitionat la pretul de " + pret );
+    }
+
+
 }

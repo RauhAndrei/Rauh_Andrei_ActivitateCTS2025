@@ -7,7 +7,6 @@ public class Rezervare {
     private boolean hasMasaDecorata;
     private String genMuzica;
 
-    //TODO facem constr cu parametrii pt ca avem atribute
     protected Rezervare(String numeClient, boolean hasAsezareGeam, boolean hasScauneErg, boolean hasMasaDecorata, String genMuzica) {
         this.numeClient = numeClient;
         this.hasAsezareGeam = hasAsezareGeam;

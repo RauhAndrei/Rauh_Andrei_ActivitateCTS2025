@@ -12,7 +12,8 @@ public class Main {
         farmacie.vindeMedicament(medicamentFarmacie2);
 
         MedicamentSpital medicamentSpital = new MedicamentSpital("paracetamol", 24.9f);
-        //farmacie.vindeMedicament(medicamentSpital);
+        //farmacie.vindeMedicament(medicamentSpital);//eroare
+
         AdaptorClaseMedicament adaptorClaseMedicament = new AdaptorClaseMedicament("paracetamol",24.9f);
         farmacie.vindeMedicament(adaptorClaseMedicament);
     }

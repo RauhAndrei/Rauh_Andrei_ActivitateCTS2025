@@ -14,7 +14,6 @@ public class RezervareBuilder implements AbstractBuilder {
         hasScauneErg = false;
         hasMasaDecorata = false;
         genMuzica = "fara muzica";
-
     }
 
     //folosim return this - pt a face apelul in cascada

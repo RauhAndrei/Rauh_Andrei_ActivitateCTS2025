@@ -13,7 +13,11 @@ public class MedicamentFarmacie implements IMedicamentFarmacie {
         this.pret = pret;
     }
 
-    public void cumparaMedicament(){
-        System.out.printf("Medicamentul " + numeMedicament + " a fost cumparat la pretul de " + pret + " si expira la data de " + dataExpirare );
+    @Override
+    public void cumparaMedicament() {
+        System.out.printf("Medicamentul " + numeMedicament + " a fost cumparat la pretul de " + pret +
+                " si expira la data de " + dataExpirare);
     }
+
+
 }
