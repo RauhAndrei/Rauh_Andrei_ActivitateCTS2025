@@ -3,7 +3,7 @@ package ro.cts.clase;
 public abstract class PrintareFelicitare implements Nota {
     private Nota notaDePlata;
 
-    public PrintareFelicitare(NotaDePlata notaDePlata) {
+    public PrintareFelicitare(Nota notaDePlata) {
         this.notaDePlata = notaDePlata;
     }
 
