@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Adapter de clase/Adapter de clase.iml" filepath="$PROJECT_DIR$/Seminare/Adapter de clase/Adapter de clase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Adapter de obiecte/Adapter de obiecte.iml" filepath="$PROJECT_DIR$/Seminare/Adapter de obiecte/Adapter de obiecte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Adapter de clase/Adapter de clase.iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Adapter de clase/Adapter de clase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Adapter de obiecte/Adapter de obiecte.iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Adapter de obiecte/Adapter de obiecte.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Angajati - factory method/Angajati - factory method.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Angajati - factory method/Angajati - factory method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Audio - singleton/Audio - singleton.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Audio - singleton/Audio - singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Banner - prototype/Banner - prototype.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Banner - prototype/Banner - prototype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Builder(1)/Builder(1).iml" filepath="$PROJECT_DIR$/Seminare/Builder(1)/Builder(1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Builder(2)/Builder(2).iml" filepath="$PROJECT_DIR$/Seminare/Builder(2)/Builder(2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Builder(1)/Builder(1).iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Builder(1)/Builder(1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Builder(2)/Builder(2).iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Builder(2)/Builder(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/CTS.iml" filepath="$PROJECT_DIR$/CTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri structurale/Vaccin - adaptor clase/Comanda - facade/Comanda - facade.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri structurale/Vaccin - adaptor clase/Comanda - facade/Comanda - facade.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Comanda - simple factory/Comanda - simple factory.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Comanda - simple factory/Comanda - simple factory.iml" />
@@ -16,12 +16,12 @@
       <module fileurl="file://$PROJECT_DIR$/Seminare/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Seminare/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminare/Facade - Restaurant/Facade - Restaurant.iml" filepath="$PROJECT_DIR$/Seminare/Facade - Restaurant/Facade - Restaurant.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminare/Facade - Spital/Facade - Spital.iml" filepath="$PROJECT_DIR$/Seminare/Facade - Spital/Facade - Spital.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Factory method/Factory method.iml" filepath="$PROJECT_DIR$/Seminare/Factory method/Factory method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Factory method/Factory method.iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Factory method/Factory method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Lucru individual.iml" filepath="$PROJECT_DIR$/Lucru individual/Lucru individual.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Seminare/Prototype/Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminare/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Seminare/Proxy/Proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Simple Factory/Simple Factory.iml" filepath="$PROJECT_DIR$/Seminare/Simple Factory/Simple Factory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminare/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Seminare/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Simple Factory/Simple Factory.iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Simple Factory/Simple Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminare/Design patternuri creationale/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Seminare/Design patternuri creationale/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Spital(1) - builder(2)/Spital(1) - builder(2).iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Spital(1) - builder(2)/Spital(1) - builder(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Spital(2) - simple factory/Spital(2) - simple factory.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Spital(2) - simple factory/Spital(2) - simple factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Spital(3) - factory method/Spital(3) - factory method.iml" filepath="$PROJECT_DIR$/Lucru individual/Design patternuri creationale/Spital(3) - factory method/Spital(3) - factory method.iml" />
