@@ -1,6 +1,6 @@
 package ro.cts.clase;
 
-public class NotaDePlataCraciun extends PrintareFelicitare {
+public class NotaDePlataCraciun extends AbstactPrintareFelicitare {
 
     public NotaDePlataCraciun(Nota notaDePlata) {
         super(notaDePlata);

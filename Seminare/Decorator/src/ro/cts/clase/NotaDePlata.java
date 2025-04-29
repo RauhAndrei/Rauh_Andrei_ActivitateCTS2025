@@ -10,7 +10,7 @@ public class NotaDePlata implements Nota {
 
     @Override
     public void printare() {
-        System.out.println("Aveti de plata: " + this.totalDePlata + " RON");
+        System.out.println("\nAveti de plata: " + this.totalDePlata + " RON");
     }
 
 
