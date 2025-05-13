@@ -10,7 +10,7 @@ public class ProxyNrPersoane implements IRezervare {
     @Override
     public void rezerva(String numeClient, int nrPersoane, int ora) {
         if (nrPersoane > 4) {
-            rezervare.rezerva(numeClient, nrPersoane, ora);
+            this.rezervare.rezerva(numeClient, nrPersoane, ora);
         } else {
             System.out.println("Va asteptam la restaurant. Avem suficiente locuri libere!");
         }

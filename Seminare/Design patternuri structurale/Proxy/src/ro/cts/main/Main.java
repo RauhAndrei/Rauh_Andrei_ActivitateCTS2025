@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         IRezervare rezervare = new Rezervare();
         rezervare.rezerva("Gigel", 5, 15);
+
         IRezervare proxyNrPersoane = new ProxyNrPersoane(rezervare);
         proxyNrPersoane.rezerva("Gigel", 3, 15);
 
