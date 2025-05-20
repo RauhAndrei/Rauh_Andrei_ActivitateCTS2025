@@ -20,4 +20,5 @@ public class Receptionist {
             return "Masa este deja ocupata!";
         }
     }
+
 }

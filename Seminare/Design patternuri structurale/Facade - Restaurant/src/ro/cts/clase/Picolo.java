@@ -6,6 +6,4 @@ public class Picolo {
         return masa.getNrMasa() % 2 == 0;
     }
 
-
-
 }

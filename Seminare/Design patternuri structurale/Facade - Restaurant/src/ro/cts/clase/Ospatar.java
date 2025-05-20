@@ -6,5 +6,4 @@ public class Ospatar {
         return masa.getNrMasa() % 5 == 0;
     }
 
-
 }
